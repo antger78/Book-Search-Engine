@@ -10,7 +10,7 @@
   
   ## Table of Contents
   * [Installation](#installation)
-  * [Deployed Instance](#Deployed Instance)
+  * [Deployment](#Deployment)
   * [Contributions](#Contributions)
   * [License](#license)
   * [Questions](#Questions)
@@ -20,7 +20,7 @@
   
   One could clone the repository, run "npm i" to install all appropriate technologies, then run "npm run develop" and use localhost:3000 and localhost:3001/graphql respectively to work inside of graphQL.
   
-  ## Deployed Instance
+  ## Deployment
   
   https://book-search-google-antger.herokuapp.com/
   
