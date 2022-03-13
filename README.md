@@ -10,7 +10,7 @@
   
   ## Table of Contents
   * [Installation](#installation)
-  * [Deployed Instance](#DeployedInstance)
+  * [Deployed Instance](#Deployed Instance)
   * [Contributions](#Contributions)
   * [License](#license)
   * [Questions](#Questions)
