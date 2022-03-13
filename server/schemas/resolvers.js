@@ -34,9 +34,9 @@ const resolvers = {
         },
         savedBooks: async(parent, args, context) => {
             if (context.user){
-                const updateUser = await User.findOneandUpdate(
+                const updateUser = await User.findOneAndUpdate(
                     {_id: context.user._id},
-                    {$push: {saveBooks: args}},
+                    {$push: {savedBooks: args}},
                     {new: true, runValidators: true}
                 );
                 return updateUser;
@@ -45,7 +45,7 @@ const resolvers = {
         },
         removeBook: async(parent, {bookId}, context) => {
             if(context.user){
-                const updateUser = await User.findOneandUpdate(
+                const updateUser = await User.findOneAndUpdate(
                     {_id: context.user._id},
                     {$pull: {savedBooks: {bookId: bookId}}},
                     {new: true}
